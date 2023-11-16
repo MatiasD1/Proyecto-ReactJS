@@ -1,0 +1,16 @@
+.contenedor-del-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ajusta para centrar verticalmente si es necesario */
+}
+
+.custom-button {
+    background-color: rgb(53, 60, 64);
+    color: #fff;
+    padding: 60px 90px; /* Ajusta el padding según sea necesario */
+    margin-right: 20px; /* Ajusta el margen entre botones */
+    border:#ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
