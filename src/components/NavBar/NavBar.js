@@ -5,7 +5,7 @@ const NavBar = () => {//Utilizo en la etiqueta nav una clase de bulma
 
     return (
         
-            <nav className="container has-text-centered"> 
+            <nav className="container"> 
             <div className="contenedor-del-nav">
                 <div className="navbar">
                     <button className="custom-button">Celulares</button>

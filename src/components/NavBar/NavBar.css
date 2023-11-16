@@ -1,15 +1,19 @@
+.container{
+    display: inline;
+}
+
 .contenedor-del-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Ajusta para centrar verticalmente si es necesario */
+    align-items: center;
 }
 
 .custom-button {
     background-color: rgb(53, 60, 64);
     color: #fff;
-    padding: 60px 90px; /* Ajusta el padding según sea necesario */
-    margin-right: 20px; /* Ajusta el margen entre botones */
-    border:#ff0000;
+    padding: 60px 90px; 
+    margin-right: 20px; /*Margen entre botones*/
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
