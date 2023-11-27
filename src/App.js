@@ -26,7 +26,32 @@ function App(){
             <ItemListContainer greeting={'Bienvenido'}/>
             <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantidad agregada ',quantity)}/>
             <div className="container">
-                
+                <div className="columns">
+                    <div className="column is-4">
+                        <ProfileCard titulo="Alexa" arroba="@Alexa22" img={AlexaImg}>
+                            <div>
+                                <h3>Mensaje enviado desde el padre</h3>
+                                <p>Texto......</p>
+                            </div>
+                        </ProfileCard>                    </div>
+                    <div className="column is-4">
+                        <ProfileCard titulo="Cortana" arroba="@Cortana66" img={CortanaImg}> 
+                            <div>
+                                <h3>Mensaje enviado desde el padre</h3>
+                                <p>Texto......</p>
+                            </div>
+                        </ProfileCard>                  
+                    </div>
+                    <div className="column is-4">
+                        <ProfileCard titulo="Siri" arroba="@Siri77" img={SiriImg}> 
+                            <div>
+                                <h3>Mensaje enviado desde el padre</h3>
+                                <p>Texto......</p>
+                            </div>
+                        </ProfileCard>                  
+                    </div>
+
+                </div>
             </div>   
         </div>
          
