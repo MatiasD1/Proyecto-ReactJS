@@ -2,17 +2,16 @@ import { useState } from "react"; //#1/5 UseState es una funcion que devuelve un
 
 function ProfileCard(props){
     
-    const { titulo , arroba, img, children } = props;
+    const { titulo , arroba, img, children } = props;//propiedades que obitene de los profilecard de app.js
 
     const [count, setCount] = useState(0);//#2 UseState devuelve una variable y una funcion setter que carga la variable inicializada en este caso en 0 
 
     function handleClickSuma(){/*Siempre es handle + nombre del evento*/  
-       //console.log("Click")
+        console.log("Click")
         setCount(count+1);//#5 Incremento. Cada vez que incremento se vuelve a ejecutar todo el componente sumando 1
-
     }
     function handleClickResta(){
-     setCount(count-1);
+        setCount(count-1);
  }
     return (/*State es la unica propiedad que permite cambiar el contenido que React muestra */
 
