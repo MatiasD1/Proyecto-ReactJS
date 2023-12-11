@@ -14,9 +14,9 @@ function App(){
     return (
         
         <div className="App">
-          {/*  <section className="hero is-primary">
+            <section className="hero is-primary">
                 <div className="hero-body">
-                 <h1 className="title">E-commerce</h1> */}
+                 <h1 className="title">E-commerce</h1> 
                     <BrowserRouter>
                         <NavBar />
                         <Routes>
@@ -26,10 +26,10 @@ function App(){
                             <Route path='*' element={<h1>404 NOT FOUND</h1>}/>        
                         </Routes>
                     </BrowserRouter>  
-               {/* </div>
-            </section>*/}
+                </div>
+            </section>*
             <ItemListContainer greeting={'Bienvenido'}/>
-                <ItemDetailContainer /> 
+            <ItemDetailContainer /> 
         </div>
          
 
